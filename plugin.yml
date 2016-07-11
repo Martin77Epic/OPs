@@ -1,0 +1,14 @@
+name: OPs
+version: 1.0.0
+main: M77E\Main
+load: POSTWORLD
+api: [2.0.0]
+
+commands:
+  ops:
+    description: "List OPs"
+    permission: m77e.ops
+permissions:
+  m77e.ops:
+    default: true
+    description: "Allows to run OPs commands"
